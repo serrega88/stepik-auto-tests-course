@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
+# В качестве вебдрайверов использую webdriver_manager: https://pypi.org/project/webdriver-manager/
 
 # Задаём браузер по умолчанию
 def pytest_addoption(parser):
